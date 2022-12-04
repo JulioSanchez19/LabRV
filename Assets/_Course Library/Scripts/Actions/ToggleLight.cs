@@ -4,7 +4,7 @@
 /// Toggles a light
 /// </summary>
 [RequireComponent(typeof(Light))]
-public class ToggleLight : MonoBehaviour
+public class ToggleLight_ : MonoBehaviour
 {
     [Tooltip("Controls the state of the light")]
     public bool isOn = false;
