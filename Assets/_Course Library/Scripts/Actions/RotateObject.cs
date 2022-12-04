@@ -3,7 +3,7 @@
 /// <summary>
 /// Set the rotation of an object
 /// </summary>
-public class RotateObject : MonoBehaviour
+public class RotateObject_ : MonoBehaviour
 {
     [Tooltip("The value at which the speed is applied")]
     [Range(0, 1)] public float sensitivity = 1.0f;
