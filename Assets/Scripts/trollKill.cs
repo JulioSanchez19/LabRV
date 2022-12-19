@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-//using System.Threading;
+using System.Threading;
 using UnityEngine;
 
 public class trollKill : MonoBehaviour
@@ -22,9 +22,10 @@ public class trollKill : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        trollSound.Play();
-        //Thread.Sleep(1000);
-        //troll.SetActive(false);
+        if (other.gameObject.tag == "axe" ) {
+            trollSound.Play();
+            Destroy(gameObject);
+        }
     }
 
 

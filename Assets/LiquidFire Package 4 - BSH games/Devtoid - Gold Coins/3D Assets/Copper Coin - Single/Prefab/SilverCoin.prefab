@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 4336748824580364}
   - component: {fileID: 33800315709682508}
   - component: {fileID: 23427727207255438}
+  - component: {fileID: 8950648265863201379}
+  - component: {fileID: 8746590007489970705}
+  - component: {fileID: 8286050963234883874}
   m_Layer: 0
   m_Name: SilverCoin
   m_TagString: Untagged
@@ -83,6 +86,45 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8950648265863201379
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564703782647594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: f576fcca16564b34390813d3bcc9074e, type: 3}
+--- !u!65 &8746590007489970705
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564703782647594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.00963985, y: 0.0020546722, z: 0.010133399}
+  m_Center: {x: -0.000000007683411, y: 0.0010272947, z: -0.000000059837475}
+--- !u!114 &8286050963234883874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564703782647594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d1c05bd79ae35741be17496486b443a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1708572530373918
 GameObject:
   m_ObjectHideFlags: 0
