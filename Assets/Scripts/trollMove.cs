@@ -5,16 +5,17 @@ using UnityEngine;
 public class trollMove : MonoBehaviour
 {
 
-    public float speed;
+    private Animator thisAnim;
     // Start is called before the first frame update
     void Start()
     {
-        
+        thisAnim = GetComponent<Animator>();
+        thisAnim.applyRootMotion = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(speed*Time.deltaTime*Vector3.forward);
+        
     }
 }

@@ -15,7 +15,9 @@ public class chestSound : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        chest.Stop();
-        openingChest.Play();
+        if (other.gameObject.tag == "lefthand" || other.gameObject.tag == "righthand") {
+            chest.Stop();
+            openingChest.Play();
+        }
     }
 }
