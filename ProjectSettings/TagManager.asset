@@ -8,6 +8,7 @@ TagManager:
   - lefthand
   - righthand
   - key
+  - troll
   layers:
   - Default
   - TransparentFX

@@ -22,11 +22,10 @@ public class trollDisapperar : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        troll.SetActive(true);
         scream.Play();
-        thisAnim.applyRootMotion = true;
-
-        Thread.Sleep(5000);
-        troll.SetActive(false);
-
+        if(other.gameObject.tag == "troll"){
+            troll.SetActive(false);
+        }
     }
 }
