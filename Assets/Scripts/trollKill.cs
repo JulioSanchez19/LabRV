@@ -31,20 +31,8 @@ public class trollKill : MonoBehaviour
         }
         if(counter ==5){
             thisAnim.SetTrigger("death");
-            //yield return new WaitUntil(() => thisAnim.GetCurrentAnimatorStateInfo(0).normalizedTime <= 1.0f );
-            //troll.SetActive(false);
-//            StartCoroutine("OnCompleteDeathAnimation");
         }
     }
-
-    /* IEnumerator OnCompleteDeathAnimation()
-    {
-        while(thisAnim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
-            yield return null;
-
-        troll.SetActive(false);
-    } */
-
     public void die() {
         troll.SetActive(false);
     }

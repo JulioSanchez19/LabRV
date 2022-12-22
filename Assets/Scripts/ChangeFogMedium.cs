@@ -20,7 +20,7 @@ public class ChangeFogMedium : MonoBehaviour
 
     public void ChangeFogEvent()
     {
-        RenderSettings.fogDensity = 0.3f;
+        RenderSettings.fogDensity = 0.18f;
         RenderSettings.fog = true;
     }
 

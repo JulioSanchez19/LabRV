@@ -9,6 +9,7 @@ TagManager:
   - righthand
   - key
   - troll
+  - camara
   layers:
   - Default
   - TransparentFX
